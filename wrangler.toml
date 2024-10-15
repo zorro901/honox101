@@ -1,0 +1,11 @@
+name = "niconico-anime-srt"
+compatibility_date = "2024-04-01"
+compatibility_flags = [ "nodejs_compat" ]
+pages_build_output_dir = "./dist"
+
+[vars]
+MY_NAME = "Hono"
+
+[[kv_namespaces]]
+binding = "MY_KV_niconico_test"
+id = "ece7a2027d704b40b763ff9ebb21de06"
